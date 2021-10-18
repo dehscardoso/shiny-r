@@ -5,7 +5,7 @@ library(data.table)
 library(randomForest)
 
 # Read data
-weather <- read.csv(file = "https://raw.githubusercontent.com/dehscardoso/shiny-r/main/play_golf/weather.csv", 
+weather <- read.csv(file = "https://raw.githubusercontent.com/dehscardoso/data/main/weather.csv", 
                     stringsAsFactors = TRUE)
 
 # Build model
